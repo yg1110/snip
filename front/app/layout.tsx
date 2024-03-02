@@ -16,9 +16,9 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body>
-        <StyledComponentsRegistry>
-          <AntdRegistry>{children}</AntdRegistry>
-        </StyledComponentsRegistry>
+        <AntdRegistry>
+          <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        </AntdRegistry>
       </body>
     </html>
   );
