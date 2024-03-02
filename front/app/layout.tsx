@@ -15,6 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
+      <head>
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff" />
+      </head>
       <body>
         <AntdRegistry>
           <StyledComponentsRegistry>{children}</StyledComponentsRegistry>

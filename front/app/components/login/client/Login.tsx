@@ -66,13 +66,15 @@ const StyledCard = styled.div`
   align-items: center;
   flex-direction: column;
   border-radius: 8px;
-  width: 400px;
   padding: 40px 30px 30px;
   background-color: #fff;
   border: none;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(0 0 0 / 15%), 0 8px 16px rgb(0 0 0 / 2%);
   box-sizing: border-box;
+  @media (min-width: 992px) {
+    width: 400px;
+  }
 `;
 const StyledLogo = styled.div`
   margin-bottom: 50px;
