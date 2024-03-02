@@ -1,7 +1,7 @@
-import Calendar from '../components/calendar/client/Calendar';
+import CalendarView from '../components/calendar/client/CalendarView';
 
 const CalendarPage = (): JSX.Element => {
-  return <Calendar />;
+  return <CalendarView />;
 };
 
 export default CalendarPage;
